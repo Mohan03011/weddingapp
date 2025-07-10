@@ -280,19 +280,7 @@ const FooterSection = () => {
         </div>
       </div>
 
-      {/* Quick Contact Button */}
-      <div className="fixed bottom-20 right-6 lg:bottom-6 lg:right-6 z-40">
-        <Button
-          variant="primary"
-          onClick={handleWhatsAppClick}
-          iconName="MessageCircle"
-          iconPosition="left"
-          className="shadow-lg hover:shadow-xl px-4 py-3 lg:px-6 lg:py-4"
-        >
-          <span className="hidden sm:inline">Quick Chat</span>
-          <span className="sm:hidden">Chat</span>
-        </Button>
-      </div>
+
     </footer>
   );
 };
