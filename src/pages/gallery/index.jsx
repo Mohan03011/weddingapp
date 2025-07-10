@@ -7,7 +7,6 @@ import FilterTabs from './components/FilterTabs';
 import SearchBar from './components/SearchBar';
 import GalleryGrid from './components/GalleryGrid';
 import Lightbox from './components/Lightbox';
-import FloatingQuoteButton from './components/FloatingQuoteButton';
 
 const Gallery = () => {
   const [activeCategory, setActiveCategory] = useState('all');
@@ -346,9 +345,6 @@ const Gallery = () => {
           onNext={handleLightboxNext}
           onPrev={handleLightboxPrev}
         />
-
-        {/* Floating Quote Button */}
-        <FloatingQuoteButton onQuoteRequest={handleQuoteRequest} />
 
         {/* WhatsApp Float */}
         <WhatsAppFloat />
